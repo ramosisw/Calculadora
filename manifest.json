@@ -1,0 +1,18 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "js/background.js" ]
+      }
+   },
+   "description": "My first Chrome App.",
+   "icons": {
+      "128": "icons/calculator-128.png",
+      "16": "icons/calculator-16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAybixKGYG/waJRFPZ9i6l0LG4q4q3ESsleR5H5z+9XA+QUT5TvyEbH6hJ4YCsrRDcuFXEzEw5Evn/yu3oGqOR3V0IwXPLCQC/oKpxO8U2jLIA5uZrJJpHoNIiqriqwNBAgvpNDPfv/YrEPN9N0YKzfWFRxR/RkidptYlXPoTdRx7ulWz2pq9sZ4gH9yRiu2ajUsYuKQWoWncWb4qGgE8nhmNSNSgdzuJyAvoYQqYtPPT0Tzq+S0uP71huSsDxAYFF8q9IQ6qVycZgYAyIhR+6pXpEONQOHbkKUbqI646l0uajqUflnjRCaSlmetzSfC37sMeMEVj1AlvSmLGf4cZ4QQIDAQAB",
+   "manifest_version": 2,
+   "name": "Calculadora!",
+   "permissions": [ "storage", "alarms" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1"
+}
