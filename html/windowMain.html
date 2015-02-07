@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First App for Google Chrome</title>
+    </head>
+    <body>
+        <div id="main">
+            <div id="vertical1">
+                <h1>Calculadora</h1>
+                <p>Introduce el Numero 1</p>
+                <input type="number" name="numero1" value="0" />
+                <p>Introduce el Numero2</p>
+                <input type="number" name="numero2" value="0" />
+                <p>Operaciones</p>
+                <div style="float:left;">
+                    <button id="sumar">+</button>
+                    <button id="restar">-</button>
+                    <button id="multiplicar">*</button>
+                    <button id="dividir">/</button>
+                </div>
+            </div>
+        </div>
+        <div id="operacion" style="display:none;">
+        	<h2>El resultado de la operacion es: <span id="resultado"></span></h2>
+        	<button id="regresar">Regresar</button>
+        </div>
+        <script type="text/javascript" src="../js/app.js"></script>
+    </body>
+</html>
