@@ -21,6 +21,7 @@
     }
 
     function verResultado() {
+        document.getElementById("resultado").textContent = app.resultado;
         app.mainStyle.display = "none";
         app.operacionStyle.display = "block";
     }
@@ -33,30 +34,27 @@
     function sumar() {
         getNumberValues();
         app.resultado = app.numero1 + app.numero2;
-        document.getElementById("resultado").textContent = app.resultado;
         verResultado();
     }
 
     function restar() {
         getNumberValues();
         app.resultado = app.numero1 - app.numero2;
-        document.getElementById("resultado").textContent = app.resultado;
         verResultado();
     }
 
     function multiplicar() {
         getNumberValues();
         app.resultado = app.numero1 * app.numero2;
-        document.getElementById("resultado").textContent = app.resultado;
         verResultado();
     }
 
     function dividir() {
         getNumberValues();
         app.resultado = app.numero1 / app.numero2;
-        document.getElementById("resultado").textContent = app.resultado;
         verResultado();
     }
+
     addClickListener("sumar", sumar);
     addClickListener("restar", restar);
     addClickListener("multiplicar", multiplicar);
