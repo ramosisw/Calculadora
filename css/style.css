@@ -1,0 +1,39 @@
+/**
+Style for Calculator App Desk for Google Chrome
+name : Julio C. Ramos
+email : ramos.isw@gmail.com
+**/
+html{
+	font-size: 16px;
+}
+h1{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+button{
+	padding: 5px 10px;
+	background-color: #009EFF;
+	color: white;
+	font-weight: bold;
+}
+.input-group{
+	margin-top: 10px;
+}
+.icon{
+	height: 40px;
+	margin-bottom: -13px;
+	margin-right: 10px;
+}
+.operaciones{
+	display: block;
+	margin-top: 20px;
+	width: 10.7em;
+	margin-right: auto;
+	margin-left: auto;
+}
+#main{
+	display: block;
+	margin: 0px auto;
+	width: 17em;
+}
